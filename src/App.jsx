@@ -6,7 +6,15 @@ function App() {
 
   return (
     <>
-      <h1>lista de empleados</h1>
+      <header className="bg-dark-subtle p-3">
+        <h1>Lista de Empleados</h1>
+      </header>
+      <main className="container">
+
+      </main>
+      <footer className="bg-dark-subtle p-3 text-center">
+        <p>&copy;Todos los derechos reservados</p>
+      </footer>
     </>
   )
 }
