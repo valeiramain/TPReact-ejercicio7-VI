@@ -1,7 +1,7 @@
 import { Card, Badge } from 'react-bootstrap';
 
 const EmpleadoRow = (props) => {
-
+console.log(props.valor.pic)
     return (
         // continuacion sistema de grillas
         <Card className="my-2 border border-light bg-light-subtle">
