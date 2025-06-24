@@ -1,15 +1,15 @@
-import { Card, Badge } from 'react-bootstrap';
+import { Card, Badge} from 'react-bootstrap';
+
 
 const EmpleadoRow = (props) => {
-console.log(props.valor.pic)
+    console.log(props.valor.pic)
     return (
         // continuacion sistema de grillas
         <Card className="my-2 border border-light bg-light-subtle">
             <Card.Body>
                 <section className='row'>
-                    <div className='col-sm-12 col-md-4 border'>
-                        {/* columna para la imagen del personaje */}
-                        <Card.Img variant="top" src={props.valor.pic} className='w-100 personajeImg' alt={props.valor.fullName}/>
+                    <div className='col-sm-12 col-md-4'>
+                        <Card.Img variant="top" src={props.valor.pic} className='p-1 personajeImg border bg-light-subtle' alt={props.valor.fullName} />
                     </div>
                     <div className='col-sm-12 col-md-8'>
                         {/* columna para la frase del personaje */}
@@ -26,3 +26,4 @@ console.log(props.valor.pic)
 };
 
 export default EmpleadoRow;
+
