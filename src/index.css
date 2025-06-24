@@ -7,3 +7,10 @@
 main{
     flex-grow: 1;
 }
+
+
+.personajeImg{
+    max-height: 350px;
+    object-fit: contain;
+
+}
