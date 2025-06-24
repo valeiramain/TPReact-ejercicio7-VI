@@ -1,10 +1,13 @@
 
 
 const EmpleadoRow = () => {
+
+    console.log(props.info.pic)
     return (
-        <div>
-            
-        </div>
+         <>
+           
+        </>
+       
     );
 };
 
