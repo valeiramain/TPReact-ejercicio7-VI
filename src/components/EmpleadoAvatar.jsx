@@ -1,4 +1,4 @@
-import {Container} from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import EmpleadoList from './EmpleadoList'
 
 const EmpleadoAvatar = () => {
@@ -14,14 +14,9 @@ const EmpleadoAvatar = () => {
         { id: 9, fullName: "Bernard Jung", title: "DevOps Engineer", department: "Engineering", pic: "empleado01.jpg" },
     ]
     return (
-         <Container>
-            <h1 className="display-4 text-center py-3">Lista de Empleados</h1>
-            {/* arma card horizontal porque react-bootstrap no la tiene */}
-            <section>
-                {
-                <EmpleadoList arregloEmpleados={empleados}></EmpleadoList>
-                }
-            </section>    
+        <Container>
+            {/* <EmpleadoList empleados={empleados}></EmpleadoList> */}
+            <EmpleadoList></EmpleadoList>
         </Container>
     );
 };
