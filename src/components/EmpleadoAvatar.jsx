@@ -15,8 +15,7 @@ const EmpleadoAvatar = () => {
     ]
     return (
         <Container>
-            {/* <EmpleadoList empleados={empleados}></EmpleadoList> */}
-            <EmpleadoList></EmpleadoList>
+            <EmpleadoList empleados={empleados}></EmpleadoList>
         </Container>
     );
 };
